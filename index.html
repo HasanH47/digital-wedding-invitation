@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Pernikahan Hasan & Zero Two</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.0/dist/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Landing Section with Particles -->
+    <section id="hero" class="hero">
+      <div id="particles-js"></div>
+      <div class="hero-content">
+        <h1 data-aos="fade-up">Hasan & Zero Two</h1>
+        <p data-aos="fade-up" data-aos-delay="200">18 Agustus 2026</p>
+        <button
+          class="scroll-btn"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          onclick="scrollToContent()"
+        >
+          Lihat Undangan
+        </button>
+      </div>
+    </section>
+
+    <!-- Love Story with Enhanced Timeline -->
+    <section id="love-story" class="section">
+      <h2 data-aos="fade-up">Kisah Cinta Kami</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="date">Januari 2024</div>
+          <div class="content">
+            <h3>Pertemuan Pertama</h3>
+            <p>
+              Kami bertemu pertama kali di suatu sekolah di Magelang, sebuah
+              pertemuan yang mengawali kisah cinta kami.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="date">Juni 2025</div>
+          <div class="content">
+            <h3>Mulai Berkencan</h3>
+            <p>
+              Setelah beberapa bulan mengenal satu sama lain, kami memutuskan
+              untuk menjalin hubungan yang lebih serius.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="date">Desember 2025</div>
+          <div class="content">
+            <h3>Lamaran</h3>
+            <p>
+              Di bawah langit malam yang bertabur bintang, Hasan berlutut dan
+              melamar Zero Two dengan cincin yang indah.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhanced Couple Section -->
+    <section id="couple" class="section">
+      <h2 data-aos="fade-up">Mempelai</h2>
+      <div class="couple-container">
+        <div class="person" data-aos="fade-right">
+          <img
+            src="https://picsum.photos/400/400?random=1"
+            alt="Hasan"
+            loading="lazy"
+          />
+          <h3>Hasan</h3>
+          <p>Putra Pertama dari</p>
+          <p>Bpk. John Doe &</p>
+          <p>Ibu Jane Doe</p>
+        </div>
+        <div class="person" data-aos="fade-left">
+          <img
+            src="https://picsum.photos/400/400?random=2"
+            alt="Zero Two"
+            loading="lazy"
+          />
+          <h3>Zero Two</h3>
+          <p>Putri Kedua dari</p>
+          <p>Bpk. John Smith &</p>
+          <p>Ibu Jane Smith</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhanced Countdown -->
+    <section id="countdown" class="section">
+      <h2 data-aos="fade-up">Menuju Hari Bahagia</h2>
+      <div class="countdown-container" data-aos="fade-up">
+        <div class="countdown-item">
+          <span id="days">00</span>
+          <span>Hari</span>
+        </div>
+        <div class="countdown-item">
+          <span id="hours">00</span>
+          <span>Jam</span>
+        </div>
+        <div class="countdown-item">
+          <span id="minutes">00</span>
+          <span>Menit</span>
+        </div>
+        <div class="countdown-item">
+          <span id="seconds">00</span>
+          <span>Detik</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhanced Event Details -->
+    <section id="event" class="section">
+      <h2 data-aos="fade-up">Detail Acara</h2>
+      <div class="event-container">
+        <div class="event-card" data-aos="fade-up">
+          <h3>Akad Nikah</h3>
+          <p>Sabtu, 18 Agustus 2026</p>
+          <p>08:00 - 10:00 WIB</p>
+          <p>Masjid Agung Magelang</p>
+          <p>
+            Jl. Aloon-Aloon Barat No.2, Cacaban, Kec. Magelang Tengah, Kota
+            Magelang, Jawa Tengah 56121
+          </p>
+        </div>
+        <div class="event-card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Resepsi</h3>
+          <p>Sabtu, 18 Agustus 2026</p>
+          <p>11:00 - 14:00 WIB</p>
+          <p>Grand Artos Hotel & Convention</p>
+          <p>
+            Jl. Mayjen Bambang Soegeng No.1, Kedungdowo, Mertoyudan, Kec.
+            Mertoyudan, Kabupaten Magelang, Jawa Tengah 56172
+          </p>
+        </div>
+      </div>
+      <div class="map-container" data-aos="fade-up">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31647.43486982595!2d110.19692486534376!3d-7.473053372467283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8f5d736ef381%3A0xa0645d8ec4966c24!2sMagelang%2C%20Magelang%20City%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1744980489835!5m2!1sen!2sid"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <button class="copy-address" onclick="copyAddress()">Salin Alamat</button>
+    </section>
+
+    <!-- Enhanced Wishes Section -->
+    <section id="wishes" class="section">
+      <h2 data-aos="fade-up">Ucapan & Doa</h2>
+      <div class="wishes-container">
+        <div class="wishes-form" data-aos="fade-up">
+          <form id="wishForm" onsubmit="submitWish(event)">
+            <textarea
+              name="message"
+              placeholder="Tulis ucapan dan doa Anda di sini..."
+              required
+            ></textarea>
+            <input type="text" name="name" placeholder="Nama Anda" required />
+            <button type="submit">Kirim Ucapan</button>
+          </form>
+        </div>
+        <div class="wishes-list" data-aos="fade-up"></div>
+      </div>
+    </section>
+
+    <!-- Enhanced Gallery Section -->
+    <section id="gallery" class="section">
+      <h2 data-aos="fade-up">Galeri Foto</h2>
+      <div class="gallery-container" data-aos="fade-up">
+        <div class="gallery-item" onclick="openGallery(0)">
+          <img
+            src="https://picsum.photos/800/1200?random=1"
+            alt="Pre-wedding 1"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item" onclick="openGallery(1)">
+          <img
+            src="https://picsum.photos/800/1200?random=2"
+            alt="Pre-wedding 2"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item" onclick="openGallery(2)">
+          <img
+            src="https://picsum.photos/800/1200?random=3"
+            alt="Pre-wedding 3"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item" onclick="openGallery(3)">
+          <img
+            src="https://picsum.photos/800/1200?random=4"
+            alt="Pre-wedding 4"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+      <span class="close-btn" onclick="closeGallery()">&times;</span>
+      <img id="modalImage" src="" alt="Gallery Image" />
+      <div class="gallery-nav">
+        <button onclick="changeImage(-1)">&lt;</button>
+        <button onclick="changeImage(1)">&gt;</button>
+      </div>
+    </div>
+
+    <!-- Enhanced Gift Section -->
+    <section id="gift" class="section">
+      <h2 data-aos="fade-up">Informasi Hadiah</h2>
+      <div class="gift-container" data-aos="fade-up">
+        <div class="gift-card">
+          <h3>Rekening Bank</h3>
+          <div class="gift-content">
+            <p>Bank BCA</p>
+            <p>1234567890</p>
+            <p>a.n. Hasan</p>
+          </div>
+          <button onclick="copyRekening()">Salin Nomor Rekening</button>
+        </div>
+        <div class="gift-card">
+          <h3>Alamat Hadiah</h3>
+          <div class="gift-content">
+            <p>Jl. Kenanga No. 123</p>
+            <p>Jakarta Selatan, 12345</p>
+          </div>
+          <button onclick="copyAlamatHadiah()">Salin Alamat</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhanced Closing -->
+    <section id="closing" class="section">
+      <div class="closing-content" data-aos="fade-up">
+        <h2>Terima Kasih</h2>
+        <p>
+          "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+          Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada
+          kami."
+        </p>
+        <h3>Hasan & Zero Two</h3>
+        <p>18 Agustus 2026</p>
+      </div>
+    </section>
+
+    <!-- Enhanced Music Player -->
+    <div id="music-player">
+      <button id="toggle-music" onclick="toggleMusic()">
+        <span class="music-icon">♫</span>
+      </button>
+      <audio id="background-music" loop>
+        <source src="/assets/music/weeding.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
